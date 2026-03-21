@@ -1,0 +1,19 @@
+class Demo:
+
+    def __init__(self,A,B):
+        print("inside Constructor")
+        self.No1 = A
+        self.No2 = B
+
+    def Display(self):
+        print("inside Display")
+
+def main():
+    dobj1 = Demo(11,21)
+
+    print(dobj1.No1)
+    print(dobj1.No2)
+
+    print(dobj1.Display())
+    
+main()

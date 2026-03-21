@@ -1,0 +1,6 @@
+import Sample
+
+print("Inside main application")
+print("__name__ from main application is : ",__name__)
+
+Sample.Display()
